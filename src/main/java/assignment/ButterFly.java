@@ -1,6 +1,6 @@
 package assignment;
 
-public class ButterFly extends Animal implements Insect {
+public class ButterFly extends Animal implements Insect ,WalkableAnimal{
 
 	private Insect state = new CaterpillarState();
 

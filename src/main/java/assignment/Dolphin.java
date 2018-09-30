@@ -1,6 +1,6 @@
 package assignment;
 
-public class Dolphin implements SwimmableAnimal{
+public class Dolphin extends Animal implements SwimmableAnimal{
 
 	
 	
@@ -10,5 +10,7 @@ public class Dolphin implements SwimmableAnimal{
 		System.out.println("I am swimming");
 		
 	}
+	
+	public boolean ableToWalk(){return false;}
 
 }

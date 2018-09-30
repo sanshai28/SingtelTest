@@ -13,5 +13,7 @@ public class Shark extends Fish{
 	public void eat() {
 		System.out.println("eat");
 	}
+	
+	public boolean ableToWalk(){return false;}
 
 }

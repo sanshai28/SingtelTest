@@ -10,4 +10,5 @@ public class Clownfish extends Fish{
 	
 	public void makeJokes(){System.out.println("I am making jokes");}
 
+	public boolean ableToWalk(){return false;}
 }

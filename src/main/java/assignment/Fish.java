@@ -1,6 +1,6 @@
 package assignment;
 
-public class Fish implements SwimmableAnimal {
+public class Fish extends Animal implements SwimmableAnimal {
 	
 	private String size;
 	private String color;
@@ -21,6 +21,8 @@ public class Fish implements SwimmableAnimal {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	
 
 
 	public String getSize() {
@@ -43,6 +45,6 @@ public class Fish implements SwimmableAnimal {
 	}
 	
 	
-
+	
 	
 }
